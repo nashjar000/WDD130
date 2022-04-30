@@ -6,25 +6,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #09adc3   ;
-  --secondary-color: #62929e ;
-  --accent1-color: #C6C5B9;
-  --accent2-color: white;
+  --primary-color: #09BC8A   ;
+  --secondary-color: #242325 ;
+  --accent1-color: #276FBF;
+  --accent2-color: #FFF8F0;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Patrick Hand";
   --paragraph-font: "Open Sans", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #62929e;  /* headlines on a white background */ 
+  --headline-color-on-white: #09BC8A;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #62929e; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #276FBF; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #62929e  ;
-  --nav-link-color: #62929e;
-  --nav-background-color: #C6C5B9;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #62929e;
+  --paragraph-background-color: #09BC8A  ;
+  --nav-link-color: #FFF8F0;
+  --nav-background-color: #276FBF;
+  --nav-hover-link-color: #FFF8F0;
+  --nav-hover-background-color: red;
 }
 
 
