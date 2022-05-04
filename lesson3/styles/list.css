@@ -1,0 +1,17 @@
+.Datalist {
+    background-color: blue;
+}
+
+.Datalist dt{
+font-weight: 900;
+}
+
+.Datalist dd{
+    font-style: italic;
+}
+
+.Datalist dt,
+.Datalist dd {
+    color: rgb(225, 0, 143);
+}
+
