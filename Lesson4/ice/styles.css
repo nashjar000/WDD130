@@ -1,0 +1,63 @@
+body{
+    background-color:#FBA6C9
+}
+
+.pageStyling{
+    text-align: center;
+    width: 50%;
+    max-width: 700;
+    margin: 0 auto;
+}
+
+h1:hover{
+    color: yellow
+}
+
+.pageStyling ol{
+    text-align: left;
+    font-weight: bold;
+}
+
+.pageStyling ol li{
+    line-height: 33px
+}
+
+.coolFont{
+    font-family: Arial, sans-serif;
+}
+
+.white{
+    color: white
+}
+
+
+img{
+    width: 150px
+}
+
+
+.Quotation{
+    margin: 20px 70px;
+    font-size: 35px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.Quotation::before{
+    content: '❝';
+    margin-left: 5px
+}
+
+.Quotation::after{
+    content: '❝';
+    margin-left: 5px
+}
+
+footer {
+    margin: 0 70px;
+}
+
+footer p {
+    font-size: 80%;
+    margin: 3px;
+}
