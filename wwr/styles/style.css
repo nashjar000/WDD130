@@ -7,6 +7,7 @@ nav a{
     text-align: center;
     color: #276FBF;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -32,6 +33,14 @@ main section{
 
 body{
     background-color: #FFF8F0;
+    font-family: 'Open Sans', Helvetica, sans-serif; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
@@ -49,14 +58,21 @@ nav a:hover{
 
 .msg{
     background-color: #09BC8A;
+    line-height: 1.5em;
+    padding: 25px;
 }
 
 footer{
     background-color: #09BC8A;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: #276FBF;
+    font-family: 'Patrick Hand';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -66,14 +82,26 @@ h4{
 .book, .join{
     color: #276FBF;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #242325
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
 .msg h2{
-    color: #242325
+    color: #242325;
 }
 
 .msg p{
-    color: #242325
+    color: #242325;
+    padding-bottom: 15px;
 }
 
 footer h3{
@@ -94,9 +122,21 @@ footer a:hover{
 }
 
 .icon{
-    width: 80px;
+    padding-top: 10px;
 }
 
 .logo{
     width: 80px
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
