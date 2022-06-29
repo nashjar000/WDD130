@@ -1,0 +1,198 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Header and Navagation */
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(13, 19, 30, 0.7);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #D4AC0D;
+    text-decoration: none;
+    padding: 35px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a:hover{
+    background-color: #594AE3;
+    color: #D4AC0D;
+}
+
+.logo{
+    width: 200px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+/* main section */
+.home-title{
+    color: #594AE3;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+#hero-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #242325;
+}
+
+body{
+    background-color: #242325;
+    font-family: sans-serif; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color: white;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+/* footer */
+footer{
+    background-color: #594AE3;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: white;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #D4AC0D;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+/* Video Journal Page */
+#videos{
+    text-align: center;
+    border: 3px
+}
+
+.video-journal{
+    text-align: center;
+    border: 3px
+}
+
+#video-journal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.video-journal-title{
+    color: #594AE3;
+    font-size: 100px;
+}
+
+.year{
+    color: #D4AC0D;
+    font-size: 200px;
+}
+
+h2{
+    color:#594AE3;
+}
+p{
+    color: white;
+}
+
+#video-journal-img{
+    width: 300px   
+}
+
+
+/* About Me Page */
+#about-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.question{
+    color: #D4AC0D;
+    font-size: 25px;
+}
+
+.about-me{
+    color: #594AE3;
+}
+
+/* Fixed Header */
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
