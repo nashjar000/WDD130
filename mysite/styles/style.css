@@ -3,17 +3,6 @@
     margin: 0 auto;
 }
 
-html, body {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-  }
-
-  .modal {
-    width: 50vw;
-    height: 50vh;
-    height: calc(var(--vh, 1vh) * 50);
-  }
-
 /* Header and Navagation */
 header{
     display: grid;
@@ -30,10 +19,6 @@ nav a{
     color: #D4AC0D;
     text-decoration: none;
     padding: 35px;
-}
-
-#logo_link{
-    padding-top: 5px;
 }
 
 nav a:hover{
