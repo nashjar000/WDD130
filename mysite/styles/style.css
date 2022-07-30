@@ -23,7 +23,8 @@ nav a{
 
 nav a:hover{
     background-color: #594AE3;
-    color: #D4AC0D;
+    color: rgb(100, 4, 4);
+    /* color: #D4AC0D; */
 }
 
 .logo{
@@ -60,7 +61,8 @@ footer a{
 }
 
 footer a:hover{
-    color: white;
+    color: rgb(100, 4, 4);
+    /* color: white */
 }
 
 footer .social img{
