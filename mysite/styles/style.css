@@ -291,10 +291,14 @@ p{
     width: 20%;
 }
 
-
 .music-link{
     color:#D4AC0D
 }
 .music-link:hover{
     color: #594AE3;
+}
+
+/* coming-soon */
+#coming-soon{
+    color: #594AE3
 }
