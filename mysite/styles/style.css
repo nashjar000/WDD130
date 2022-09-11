@@ -74,7 +74,7 @@ footer .social img{
 
 .home-title{
     color: #594AE3;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     margin-top: 10px;
 }
@@ -173,6 +173,16 @@ p{
 .piano-title{
     color: #594AE3;
     font-size: 100px;
+}
+
+.peanuts{
+    color: #594AE3;
+    font-size: 50px;
+    font-family: 'peanuts', 'Montserrat', sans-serif;
+}
+
+.truman{
+    font-size: 80px;
 }
 
 .music{
