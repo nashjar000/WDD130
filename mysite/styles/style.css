@@ -183,7 +183,7 @@ p{
 
 .truman{
     font-size: 80px;
-    font-family: 'trumania';
+    font-family: 'trumania','Montserrat', sans-serif;
 }
 
 .music{
@@ -206,6 +206,11 @@ p{
 .batman1966{
     font-size: 80px;
     font-family: 'POW_';
+}
+
+.skyfall{
+    font-size: 70px;
+    font-family: '007Goldeneye','Montserrat', sans-serif;
 }
 
 
