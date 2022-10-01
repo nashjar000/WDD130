@@ -92,6 +92,13 @@ footer .social img{
     font-size: 80px;
 }
 
+.Christmas{
+    /* font-family: 'PWJoyeuxNoel'; */
+    /* font-family: 'Candy Cane (Unregistered)'; */
+    font-family: 'Christmas Squad - Personal Use';
+    font-size: 80px;
+}
+
 #hero-img{
     display: block;
     margin-left: auto;
