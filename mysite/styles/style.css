@@ -402,3 +402,21 @@ p{
 #coming-soon{
     color: #594AE3
 }
+
+/* Mission-audio-files */
+
+.mission-title-main{
+    color: #594AE3;
+    color: darkorange; /* Haloween */
+    font-size: 90px;
+}
+
+#Mission-audio-files{
+    color: #594AE3; /* Normal */
+}
+
+.mission-area{
+    color: #594AE3; /* Normal */
+    color: darkred; /* Haloween */
+    font-size: 80px;
+}
