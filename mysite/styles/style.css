@@ -96,14 +96,14 @@ footer .social img{
 
 .Halloween{
     color: darkred;
-    font-family: 'CF Halloween';
+    font-family: 'CF Halloween', 'Montserrat', sans-serif;
     font-size: 80px;
 }
 
 .Christmas{
     /* font-family: 'PWJoyeuxNoel'; */
     /* font-family: 'Candy Cane (Unregistered)'; */
-    font-family: 'Christmas Squad - Personal Use';
+    font-family: 'Christmas Squad - Personal Use', 'Montserrat', sans-serif;
     /* font-family: 'PWChristmasfont'; */
     font-size: 80px;
 }
@@ -255,7 +255,7 @@ p{
     color: darkred; /* Halloween */
     /* color: darkgreen; Christmas */
     font-size: 80px;
-    font-family: 'POW_';
+    font-family: 'POW_', 'Montserrat', sans-serif;
 }
 
 .skyfall{
