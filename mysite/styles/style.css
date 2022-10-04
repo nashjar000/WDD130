@@ -430,7 +430,8 @@ p{
 
 /* Paintings */
 .paintings-title{
-    color: #594AE3;
+    color: #594AE3; /* Normal */
+    color: darkred; /* Haloween */
     font-size: 80px;
 }
 
