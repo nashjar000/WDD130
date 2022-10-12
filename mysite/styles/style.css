@@ -44,6 +44,21 @@ nav a:hover{
     align-self: center;
 }
 
+p, #demo {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: 'ravenscroft';
+    color: darkorange;
+    background-color: darkred;
+  }
+
+.count-down-title{
+    color: darkorange;
+    font-family: 'ravenscroft';
+    font-size: 80px;
+}
+
 /* footer */
 footer{
     /* background-color: #594AE3;  */ /* Normal */
