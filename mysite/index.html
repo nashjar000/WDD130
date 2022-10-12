@@ -37,6 +37,52 @@
                 <!--Halloween msg-->
                 <h1 class="Halloween">HAPPY HALL<span style="color: darkorange">O</span>WEEN!</h1>
             
+                <!-- Halloween Countdown -->
+                <style>
+                    p {
+                      text-align: center;
+                      font-size: 80px;
+                      margin-top: 0px;
+                      font-family: 'ravenscroft';
+                      color: darkorange;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <p id="demo"></p>
+                    
+                    <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Oct 31, 2022 00:00:00").getTime();
+                    
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+                    
+                      // Get today's date and time
+                      var now = new Date().getTime();
+                        
+                      // Find the distance between now and the count down date
+                      var distance = countDownDate - now;
+                        
+                      // Time calculations for days, hours, minutes and seconds
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        
+                      // Output the result in an element with id="demo"
+                      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                      + minutes + "m " + seconds + "s ";
+                        
+                      // If the count down is over, write some text 
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                      }
+                    }, 1000);
+                    </script>
+
                 <!-- Christmas msg -->
                 <!-- <h1 class="Christmas">
                    <span style="color: red;">M</span>
@@ -55,23 +101,64 @@
                    <span style="color: red;">A</span>
                    <span style="color: green;">S</span>
                    <span style="color: red;">!</span>
-                </h1>  --> 
+                </h1>   -->
 
-                <h4>Curious to know what I've been up to? Check out my site! I have a lot of content for my friends and family to get to know me better and stay up to date on what I've been doing. My site includes a FAQ about me as well as a "Video Journal" archive. I also have links to my IG and FB pages at the bottom. Go take a look at the site! :) </h4>
-                
-                <!-- Haloween Music -->
+                <!-- Christmas Countdown -->
+                <!-- <style>
+                    p {
+                      text-align: center;
+                      font-size: 60px;
+                      margin-top: 0px;
+                      font-family: 'Christmas Lights Outdoor';
+                      color: red;
+                    }
+                    </style>
+                    </head>
+                    <body>
+                    
+                    <p id="demo"></p>
+                    
+                    <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Dec 25, 2022 00:00:00").getTime();
+                    
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+                    
+                      // Get today's date and time
+                      var now = new Date().getTime();
+                        
+                      // Find the distance between now and the count down date
+                      var distance = countDownDate - now;
+                        
+                      // Time calculations for days, hours, minutes and seconds
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        
+                      // Output the result in an element with id="demo"
+                      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                      + minutes + "m " + seconds + "s ";
+                        
+                      // If the count down is over, write some text 
+                      if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "EXPIRED";
+                      }
+                    }, 1000);
+                    </script>
+                    -->
+
+                <h4>Curious to know what I've been up to? Check out my site! I have a lot of content for my friends and family to get to know me better and stay up to date on what I've been doing. My site includes a FAQ about me as well as a "Video Journal" archive. I also have links to my IG and FB pages at the bottom. Go take a look at the site! :) </h4> -->
+                 
+                <!-- Music -->
                 <a hidden>
                     <audio controls autoplay loop>
-                    <source src="Audio/Haunted Mansion Cinematic Suite  [“Grim Grinning Ghosts” EPIC Orchestral Cover].mp3" type=audio/mpeg>
+                    <source src="Audio/Phantom Manor Suite (Extended Version).mp3" type=audio/mpeg>
                   Your browser does not support the audio element.
                   </audio>
                 </a>
-
-                <!-- Christmas Music -->
-                <!-- <a hidden>
-                    <audio src="Audio/Sleigh Ride.mp3" type="audio/mpeg"></audio>
-                    Your browser does not support the audio element.
-                </a> -->
                 
                 <img class="logo-img-big" src="images/mylogo.png" alt="logo">
                 <div class='button-box'>
