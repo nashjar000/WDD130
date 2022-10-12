@@ -178,6 +178,35 @@ main section img{
     font-size: 100px;
 }
 
+.year-links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+#year-link{
+    /* color: #D4AC0D; Normal */
+    color: red;
+    font-size: 25px; 
+}
+
+#year-link:hover{
+    /* color: #594AE3; Normal */
+    color: darkred; /* Halloween */
+}
+
+#top-video{
+    /* color: #D4AC0D; Normal */
+    color: red; /* Haloween */
+}
+
+#top-video:hover{
+    /* color: #594AE3; Normal */
+    color: darkred; /* Halloween */
+}
+
 .year{
     /* color: #D4AC0D;  */ /* Normal */
     color: darkred; /* Haloween & Christmas */
