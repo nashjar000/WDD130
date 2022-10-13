@@ -67,7 +67,7 @@ nav a:hover{
     text-align: center;
     font-size: 80px;
     margin-top: 0px;
-    font-family: 'ravenscroft';
+    font-family: 'ravenscroft', 'Monsterrat','sans-serif';
     color: darkorange;
     background-color: darkred;
   }
@@ -76,7 +76,7 @@ nav a:hover{
     text-align: center;
     font-size: 80px;
     margin-top: 0px;
-    font-family: 'Christmas Light Outdoor';
+    font-family: 'Christmas Light Outdoor', , 'Monsterrat','sans-serif';
     color: red;
     background-color: green;
 } */
@@ -294,7 +294,13 @@ p{
     color: darkred; /* Halloween */
     /* color: darkgreen; Christmas */
     font-size: 50px;
-    font-family: 'peanuts', 'Montserrat', sans-serif;
+    font-family: 'peanuts', 'Montserrat', 'sans-serif';
+}
+
+.grim-grinning-ghosts{
+    font-size: 100px;
+    color: darkred;
+    font-family: 'Ravenscroft', 'Monsterrat','sans-serif';
 }
 
 .truman{
@@ -302,7 +308,7 @@ p{
     color: darkred; /* Halloween */
     /* color: darkgreen; Christmas */
     font-size: 80px;
-    font-family: 'Trumania EEN','Montserrat', sans-serif;
+    font-family: 'Trumania EEN','Montserrat', 'sans-serif';
 }
 
 .music{
@@ -327,7 +333,7 @@ p{
     color: darkred; /* Halloween */
     /* color: darkgreen; Christmas */
     font-size: 80px;
-    font-family: 'POW_', 'Montserrat', sans-serif;
+    font-family: 'POW_', 'Montserrat', 'sans-serif';
 }
 
 .skyfall{
@@ -335,7 +341,7 @@ p{
     color: darkred; /* Halloween */
     /* color: darkgreen; Christmas */
     font-size: 100px;
-    font-family: '007 Goldeneye','Montserrat', sans-serif;
+    font-family: '007 Goldeneye','Montserrat', 'sans-serif';
 }
 
 .batmandogcars{
