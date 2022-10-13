@@ -63,7 +63,7 @@ nav a:hover{
     align-self: center;
 }
 
-#demo {
+#halloween-count-down {
     text-align: center;
     font-size: 80px;
     margin-top: 0px;
@@ -71,6 +71,15 @@ nav a:hover{
     color: darkorange;
     background-color: darkred;
   }
+
+/* #christmas-count-down{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: 'Christmas Light Outdoor';
+    color: red;
+    background-color: green;
+} */
 
 .count-down-title{
     color: darkorange;
