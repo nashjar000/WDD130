@@ -28,7 +28,7 @@
   .countup .timeel {
     display: inline-block;
     padding: 10px;
-    background: #151515;
+    background: #242325;
     margin: 0;
     color: white;
     min-width: 2.6rem;
@@ -39,7 +39,7 @@
     border-radius: 0 10px 10px 0;
     margin-left: 0;
     background: #594AE3;
-    color: black;
+    color: #D4AC0D;
   }
 
   .live-title{
