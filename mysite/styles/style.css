@@ -239,6 +239,7 @@ main section img{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    padding-top: 5%;
   }
 
 .video-journal-title{
@@ -350,6 +351,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 30%;   
+    padding-top: 5%;
 }
 
 .piano-videos{
@@ -386,6 +388,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    padding-top: 5%;
 }
 
 .question{
@@ -496,6 +499,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    padding-top: 5%;
 }
 
 .music-link{
@@ -519,6 +523,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding-top: 5%;
 }
 
 .mission-title-main{
