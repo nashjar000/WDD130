@@ -289,6 +289,9 @@ h2{
     /* color:#594AE3;  */ /* Normal */
     color: darkorange; /* Haloween */
     /* color: darkgreen; Christmas */
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 p{
     color: white;
@@ -305,6 +308,7 @@ p{
     /* color: #594AE3;  */ /* Normal */
     color: darkorange; /* Haloween */
     /* color: darkgreen; Christmas */
+    padding-top: 10%;
 }
 
 .fat-cats{
