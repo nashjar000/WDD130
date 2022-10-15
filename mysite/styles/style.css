@@ -180,7 +180,8 @@ footer .social img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 50%;
+    padding-top: 5%;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
