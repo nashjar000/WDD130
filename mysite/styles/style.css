@@ -207,6 +207,8 @@ body{
 
 h4{
     color: white;
+    padding-left: 10%;
+    padding-right: 10%;
     /* color: black; Christmas */
 }
 
@@ -288,6 +290,8 @@ h2{
 }
 p{
     color: white;
+    padding-left: 10%;
+    padding-right: 10%;
     /* color: black; Christmas */
 }
 
@@ -395,6 +399,8 @@ p{
     color: white; /* Normal */
     /* color: black; Christmas */
     font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .about-me-title{
