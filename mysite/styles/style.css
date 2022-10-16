@@ -224,6 +224,16 @@ main section img{
     width: 50%
 }
 
+.author{
+    font-style: italic;
+    text-align: center;
+}
+
+.quote{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
 /* Video Journal Page */
 #videos{
     text-align: center;
