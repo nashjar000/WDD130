@@ -598,3 +598,78 @@ p{
     margin-right: auto;
     width: 50%;
 }
+
+/* Recipies */
+.recipies-title{
+    /* color: #594AE3; */ /* Normal */
+    color: darkred; /* Halloween */
+    /* color: darkred; Christmas */
+    font-size: 100px;
+}
+
+.recipie-links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+#recipie-link{
+    /* color: #D4AC0D; Normal */
+    color: red;
+    font-size: 25px; 
+}
+
+#recipie-link:hover{
+    /* color: #594AE3; Normal */
+    color: darkred; /* Halloween */
+}
+
+#top-rec{
+    color: red;
+    font-size: 25px;
+}
+
+#top-rec:hover{
+    color: darkred;
+}
+
+.celestial-cookie-button{
+    background-color: #242325;
+    cursor: pointer;
+    color: #D4AC0D;
+    font-size: large;
+}
+
+.ingred-title{
+    color: darkorange;
+    font-size: 30px;
+    padding-right: 70%;
+}
+
+.ingredients{
+    color: white;
+    text-align: left;
+}
+
+.cinnamon-roll{
+    color: darkorange;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.cinnamon{
+    color: darkorange;
+    text-align: left;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.directions{
+    text-align: left;
+}
