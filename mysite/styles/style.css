@@ -440,6 +440,22 @@ p {
     font-family: '007 Goldeneye', 'Montserrat', 'sans-serif';
 }
 
+.shadows-lie{
+    color: darkred;
+    /* color: darkgreen; Christmas */
+    /* color: #594AE3; */
+    font-size: 70px;
+    font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
+}
+
+.gollum{
+    color: darkred;
+    /* color: darkgreen; Christmas */
+    /* color: #594AE3; */
+    font-size: 60px;
+    font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
+}
+
 .batmandogcars {
     /* color: #594AE3; */
     /* Normal */
