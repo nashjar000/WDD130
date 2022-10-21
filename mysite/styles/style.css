@@ -185,12 +185,16 @@ footer .social img {
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .Halloween {
     color: darkred;
     font-family: 'CF Halloween', 'Montserrat', sans-serif;
-    font-size: 80px;
+    font-size: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .Christmas {
