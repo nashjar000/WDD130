@@ -393,7 +393,15 @@ p {
 .grim-grinning-ghosts {
     font-size: 100px;
     color: darkred;
-    font-family: 'Ravenscroft', 'Monsterrat', 'sans-serif';
+    font-family:'Ravenscroft', 'Monsterrat', 'sans-serif';
+}
+
+.hocus{
+    font-size: 60px;
+    color: darkred;
+    font-family: 'waltograph','Monsterrat', 'sans-serif';
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .truman {
