@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-.storm {
+/* .storm {
     top: 0;
     left: 0;
     right: 0;
@@ -30,6 +30,7 @@
         background-color: #fff
     }
 }
+*/
 
 .countup {
     text-align: center;
@@ -63,10 +64,11 @@
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: rgba(13, 19, 30, 0.7);
-    background-color: #242325;
+    /* background-color: rgba(13, 19, 30, 0.7); */
+    /* background-color: #242325; */
     /* Halloween */
-    /* background-color: darkgreen; Christmas */
+    background-color: darkgreen; 
+    /* Christmas */ 
 }
 
 nav {
@@ -78,9 +80,10 @@ nav a {
     text-align: center;
     /* color: #D4AC0D; */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Halloween */
-    /* color: darkred; Christmas */
+    color: darkred; 
+    /* Christmas */
     text-decoration: none;
     padding: 35px;
 }
@@ -88,9 +91,10 @@ nav a {
 nav a:hover {
     /* background-color: #594AE3; */
     /* Normal */
-    background-color: black;
+    /* background-color: black; */
     /* Halloween */
-    /* background-color: white; Christmas */
+    background-color: white; 
+    /* Christmas */
     color: rgb(100, 4, 4);
     text-decoration: underline;
     /* color: #D4AC0D; */
@@ -106,37 +110,38 @@ nav a:hover {
     align-self: center;
 }
 
-#halloween-count-down {
+/* #halloween-count-down {
     text-align: center;
     font-size: 80px;
     margin-top: 0px;
     font-family: 'ravenscroft', 'Monsterrat', 'sans-serif';
     color: darkorange;
     background-color: darkred;
-}
+} */
 
-/* #christmas-count-down{
+#christmas-count-down{
     text-align: center;
     font-size: 80px;
     margin-top: 0px;
-    font-family: 'Christmas Light Outdoor', , 'Monsterrat','sans-serif';
-    color: red;
+    font-family: 'Christmas Light Outdoor', 'Monsterrat','sans-serif';
+    color: white;
     background-color: green;
-} */
+}
 
-.count-down-title {
+/* .count-down-title {
     color: darkorange;
     font-family: "Burton's Nightmare", 'ravenscroft', 'Monsterrat', 'sans-serif';
     font-size: 80px;
-}
+} */
 
 /* footer */
 footer {
     /* background-color: #594AE3;  */
     /* Normal */
-    background-color: #242325;
+    /* background-color: #242325; */
     /* Halloween */
-    /* background-color: darkred; Christmas */
+    background-color: darkred; 
+    /* Christmas  */
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -147,9 +152,10 @@ footer {
 footer h3 {
     color: white;
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Haloween */
-    /* color: green; Christmas */
+    color: green; 
+    /* Christmas  */
 }
 
 footer h3 a:hover {
@@ -159,9 +165,10 @@ footer h3 a:hover {
 footer a {
     /* color: #D4AC0D; */
     /* Normal */
-    color: darkred;
+    /* color: darkred; */
     /* Halloween */
-    /* color: white; Christmas */
+    color: white; 
+    /* Christmas */
     text-decoration: none;
 }
 
@@ -179,9 +186,10 @@ footer .social img {
 
 .home-title {
     /* color: #594AE3; /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Haloween */
-    /* color: darkred; Christmas */
+    color: darkred; 
+    /* Christmas */
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     margin-top: 10%;
@@ -189,13 +197,13 @@ footer .social img {
     padding-right: 10%;
 }
 
-.Halloween {
+/* .Halloween {
     color: darkred;
     font-family: 'CF Halloween', 'Montserrat', sans-serif;
     font-size: 100px;
     padding-left: 10%;
     padding-right: 10%;
-}
+} */
 
 .Christmas {
     /* font-family: 'PWJoyeuxNoel'; */
@@ -230,8 +238,10 @@ main section {
 body {
     background-color: #242325;
     /* Normal */
-    background-color: black;
-    /* background-color: white; Christmas */
+    /* background-color: black; */
+    /* Halloween */
+    background-color: white; 
+    /* Christmas  */
     font-family: sans-serif;
     font-size: 22px;
     margin: 0;
@@ -239,10 +249,12 @@ body {
 }
 
 h4 {
-    color: white;
+    /* color: white; */
+    /* Normal */
     padding-left: 10%;
     padding-right: 10%;
-    /* color: black; Christmas */
+    color: black; 
+    /* Christmas */
 }
 
 main section img {
@@ -264,6 +276,7 @@ main section img {
 .quote {
     padding-left: 30%;
     padding-right: 30%;
+    text-align: center;
 }
 
 /* Video Journal Page */
@@ -288,9 +301,10 @@ main section img {
 .video-journal-title {
     /* color: #594AE3; */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Halloween */
-    /* color: darkred; Christmas */
+    color: darkred; 
+    /* Christmas  */
     font-size: 100px;
 }
 
@@ -337,19 +351,21 @@ main section img {
 h2 {
     /* color:#594AE3;  */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Haloween */
-    /* color: darkgreen; Christmas */
+    color: darkgreen; 
+    /* Christmas */ 
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 p {
-    color: white;
+    /* color: white; */
     padding-left: 10%;
     padding-right: 10%;
-    /* color: black; Christmas */
+    color: black; 
+    /* Christmas */
 }
 
 .vlog {
@@ -359,9 +375,10 @@ p {
 .video-journal-intro {
     /* color: #594AE3;  */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Haloween */
-    /* color: darkgreen; Christmas */
+    color: darkgreen; 
+    /* Christmas */
     padding-top: 10%;
 }
 
@@ -374,9 +391,10 @@ p {
 .piano-title {
     /* color: #594AE3;  */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Halloween */
-    /* color: darkred; Christmas */
+    color: darkgreen;
+    /* Christmas */
     font-size: 100px;
 }
 
@@ -384,8 +402,7 @@ p {
     /* color: #594AE3; */
     /* Normal */
     color: darkred;
-    /* Halloween */
-    /* color: darkgreen; Christmas */
+    /* Halloween and Christmas */
     font-size: 50px;
     font-family: 'peanuts', 'Montserrat', 'sans-serif';
 }
@@ -489,16 +506,18 @@ p {
 .question {
     /* color: #D4AC0D;  */
     /* Normal */
-    color: darkred;
+    /* color: darkred; */
     /* Halloween */
-    /* color: darkgreen; Christmas */
+    color: darkgreen; 
+    /* Christmas */
     font-size: 50px;
 }
 
 .answer {
-    color: white;
+    /* color: white; */
     /* Normal */
-    /* color: black; Christmas */
+    color: black; 
+    /* Christmas */
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
@@ -507,9 +526,10 @@ p {
 .about-me-title {
     /* color: #594AE3; */
     /* Normal */
-    color: darkorange;
+    /* color: darkorange; */
     /* Halloween */
-    /* color: darkred; Christmas */
+    color: darkred; 
+    /* Christmas */
     font-size: 100px;
 }
 
@@ -539,9 +559,10 @@ p {
     transition: .5s ease;
     /* background-color: #594AE3; */
     /* Normal */
-    background-color: black;
+    /* background-color: black; */
     /* Halloween */
-    /* background-color: red; Christmas */
+    background-color: red; 
+    /* Christmas */
 }
 
 .content:hover .overlay {
@@ -551,9 +572,10 @@ p {
 .hero-overlay-text {
     /* color: #D4AC0D; */
     /* Normal */
-    color: darkred;
+    /* color: darkred; */
     /* Halloween */
-    /* color: darkgreen; Christmas */
+    color: darkgreen; 
+    /* Christmas */
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -636,9 +658,12 @@ p {
 }
 
 .mission-title-main {
-    color: #594AE3;
-    color: darkorange;
+    /* color: #594AE3; */
+    /* normal */
+    /* color: darkorange; */
     /* Haloween */
+    color: darkgreen;
+    /* christmas */
     font-size: 90px;
 }
 
@@ -746,18 +771,26 @@ p {
 }
 
 .ingred-title {
-    color: darkorange;
+    /* color: darkorange; */
+    /* haloween */
+    color: darkred;
+    /* Christmas */
     font-size: 30px;
     padding-right: 70%;
 }
 
 .ingredients {
-    color: white;
+    /* color: white; */
+    /* normal */
+    color: black;
+    /* christmas */
     text-align: left;
 }
 
 .cinnamon-roll {
-    color: darkorange;
+    /* color: darkorange; */
+    /* halloween */
+    color: darkgreen;
     text-align: center;
     font-size: 50px;
     padding-top: 10%;
@@ -766,7 +799,10 @@ p {
 }
 
 .cinnamon {
-    color: darkorange;
+    /* color: darkorange; */
+    /* halloween */
+    color: darkgreen;
+    /* christmas */
     text-align: left;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
@@ -775,11 +811,18 @@ p {
 
 .directions {
     text-align: left;
+    /* color: white; */
+    /* normal */
+    color: black;
+    /* christmas */
 }
 
 .directions-title {
     text-align: left;
-    color: darkorange;
+    /* color: darkorange; */
+    /* Halloween */
+    color: darkgoldenrod;
+    /* christmas */
     padding-left: 10%;
     padding-top: 5%;
 }
