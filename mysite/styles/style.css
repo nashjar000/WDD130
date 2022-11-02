@@ -128,11 +128,16 @@ nav a:hover {
     background-color: green;
 }
 
-/* .count-down-title {
-    color: darkorange;
-    font-family: "Burton's Nightmare", 'ravenscroft', 'Monsterrat', 'sans-serif';
-    font-size: 80px;
-} */
+.count-down-title {
+    /* color: darkorange; */
+    /* font-family: "Burton's Nightmare", 'ravenscroft', 'Monsterrat', 'sans-serif'; */
+    /* font-size: 80px; */
+    color: darkred;
+    font-family: 'PWChristmasfont', 'Monsterrat', 'sans-serif';
+    font-size: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 /* footer */
 footer {
