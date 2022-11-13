@@ -572,7 +572,7 @@ p {
     /* Normal */
     /* background-color: black; */
     /* Halloween */
-    background-color: red; 
+    background-color: rgba(255, 0, 0, 1); 
     /* Christmas */
 }
 
