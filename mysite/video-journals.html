@@ -29,6 +29,13 @@
                 <a href="recipies.html">Recipes</a>
             </nav>
         </header>
+        <button onclick="darklightmode()">Dark/Light</button>
+        <script>
+            function darklightmode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
         <div id="video-journal">
             <div id="video-journal-box">
                 <img id="video-journal-img" src="images/Video-Journal-img.jpeg" alt="Video Journal Image">

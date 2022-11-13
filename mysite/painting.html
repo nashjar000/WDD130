@@ -28,6 +28,13 @@
                 <a href="recipies.html">Recipes</a>
             </nav>
         </header>
+        <button onclick="darklightmode()">Dark/Light</button>
+        <script>
+            function darklightmode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
         <main class="Home-grid">
             <!-- <div id="painting-image">
             <div id="painting-box">

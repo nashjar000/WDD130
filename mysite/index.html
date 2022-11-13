@@ -18,13 +18,6 @@
         <header>
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
-                <button onclick="darklightmode()">Dark/Light</button>
-                <script>
-                    function darklightmode(){
-                        var element = document.body;
-                        element.classList.toggle("dark-mode");
-                    }
-                </script>
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -39,6 +32,13 @@
                 <a href="recipies.html">Recipes</a>
             </nav>
         </header>
+        <button onclick="darklightmode()">Dark/Light</button>
+        <script>
+            function darklightmode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
         <div id="hero">
             <div id="hero-box" class="content">
                 <img id="hero-img" src="images/spider-man-mask-off.jpg" alt="main profile picture" class="image">
