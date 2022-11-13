@@ -241,7 +241,7 @@ main section {
 }
 
 body {
-    background-color: #242325;
+    /* background-color: #242325; */
     /* Normal */
     /* background-color: black; */
     /* Halloween */
@@ -251,6 +251,11 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+
+.dark-mode{
+    background-color: #242325;
+    color: white;
 }
 
 h4 {

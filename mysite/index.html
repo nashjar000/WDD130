@@ -10,6 +10,7 @@
     <script src="./js/halloween-count.js"></script>
     <script src="./js/countup.js"></script>
     <script src="./js/christmas-count.js"></script>
+    <!-- <script src="./js/darklightmode.js"></script> -->
 </head>
 
 <body>
@@ -17,6 +18,13 @@
         <header>
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
+                <button onclick="darklightmode()">Dark Mode</button>
+                <script>
+                    function darklightmode(){
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                    }
+                </script>
             </a>
             <nav>
                 <a href="index.html">Home</a>
