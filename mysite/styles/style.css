@@ -470,6 +470,29 @@ p {
     font-size: 50px;
 }
 
+/* videos page */
+
+.video-main-title{
+    /* color: #594AE3; */
+    /* Normal */
+    /* color: darkorange; */
+    /* Halloween */
+    color: darkred; 
+    /* Christmas  */
+    font-size: 100px;
+}
+
+.video-title{
+    /* color: #594AE3;  */
+    /* Normal */
+    /* color: darkorange; */
+    /* Haloween */
+    color: darkgreen; 
+    /* Christmas */
+    padding-top: 10%;
+    font-size: 50px;
+}
+
 /* Piano Video Page */
 .piano-title {
     /* color: #594AE3;  */
