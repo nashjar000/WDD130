@@ -58,6 +58,7 @@
 .live-title {
     color: #D4AC0D;
     text-align: center;
+    padding-top: 10%;
 }
 
 /* Header and Navagation */
@@ -139,6 +140,15 @@ nav a:hover {
     padding-right: 10%;
 }
 
+/* thanksgiving msg */
+.thanks{
+    font-size: 80px;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: goldenrod;
+}
+
 /* footer */
 footer {
     /* background-color: #594AE3;  */
@@ -200,6 +210,7 @@ footer .social img {
     margin-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 10%;
 }
 
 /* .Halloween {
