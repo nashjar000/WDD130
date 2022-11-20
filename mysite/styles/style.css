@@ -493,6 +493,11 @@ p {
     font-size: 100px;
 }
 
+.video-section{
+    color: darkred;
+    font-size: 80px;
+    padding-top: 10%;
+}
 .video-title{
     /* color: #594AE3;  */
     /* Normal */
@@ -500,9 +505,28 @@ p {
     /* Haloween */
     color: darkgreen; 
     /* Christmas */
-    padding-top: 10%;
+    padding-top: 8%;
     font-size: 50px;
 }
+
+.video-links{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding: 50px;
+    gap: 30px;
+}
+
+/* .video-grid{
+    padding: 20%;
+    text-align: center;
+}
+
+.BGTV-videos, .animation-videos, .fun-videos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10%;
+} */
 
 /* Piano Video Page */
 .piano-title {
