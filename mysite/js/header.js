@@ -9,6 +9,7 @@ header.innerHTML = `
                 <a href="piano.html">Piano Videos</a>
                 <a href="videos.html">Other Videos</a>
                 <a href="about-me.html">About Me (FAQ)</a>
+                <a href="contact.html">Contact Me</a>
                 <!-- <a href="contact.html">Contact me</a> -->
                 <!-- <a href="coming-soon.html">Coming Soon</a> -->
                 <!-- <a href="mission.html">Mission Audio Files</a> -->
