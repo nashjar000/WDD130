@@ -27,4 +27,11 @@ header.innerHTML = `
                 </script>
             </nav>
         </header>
+        <!-- <button onclick="darklightmode()">Dark/Light</button>
+        <script>
+            function darklightmode(){
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            } 
+        </script> -->
 `;
