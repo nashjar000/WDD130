@@ -48,7 +48,7 @@
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: rgba(13, 19, 30, 0.7);
+    background-color: darkgreen; 
 }
 
 nav {
@@ -58,13 +58,13 @@ nav {
 
 nav a {
     text-align: center;
-    color: #D4AC0D;
+    color: darkred; 
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: #594AE3;
+    background-color: white; 
     color: rgb(100, 4, 4);
     text-decoration: underline;
 }
@@ -79,9 +79,26 @@ nav a:hover {
     align-self: center;
 }
 
+#christmas-count-down{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: 'Christmas Light Outdoor', 'Monsterrat','sans-serif';
+    color: white;
+    background-color: green;
+}
+
+.count-down-title {
+    color: darkred;
+    font-family: 'PWChristmasfont', 'Monsterrat', 'sans-serif';
+    font-size: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* footer */
 footer {
-    background-color: #594AE3; 
+    background-color: darkred; 
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -91,6 +108,7 @@ footer {
 
 footer h3 {
     color: white;
+    color: green; 
 }
 
 footer h3 a:hover {
@@ -98,12 +116,12 @@ footer h3 a:hover {
 }
 
 footer a {
-    color: #D4AC0D;
+    color: white; 
     text-decoration: none;
 }
 
 footer a:hover {
-    color: white
+    color: rgb(100, 4, 4);
 }
 
 footer .social img {
@@ -114,13 +132,18 @@ footer .social img {
 /* main section */
 
 .home-title {
-    color: #594AE3; 
+    color: darkred; 
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     margin-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
+}
+
+.Christmas {
+    font-family: 'Christmas Squad - Personal Use', 'Montserrat', sans-serif;
+    font-size: 80px;
 }
 
 #hero-img {
@@ -146,7 +169,7 @@ main section {
 }
 
 body {
-    background-color: #242325;
+    background-color: white; 
     font-family: sans-serif;
     font-size: 22px;
     margin: 0;
@@ -214,9 +237,9 @@ body {
   }
 
 h4 {
-    color: white;
     padding-left: 10%;
     padding-right: 10%;
+    color: black; 
 }
 
 main section img {
@@ -279,7 +302,7 @@ main section img {
 }
 
 .video-journal-title {
-    color: #594AE3;
+    color: darkred; 
     font-size: 100px;
 }
 
@@ -292,38 +315,39 @@ main section img {
 }
 
 #year-link {
-    color: #D4AC0D; 
+    /* color: #D4AC0D; Normal */
+    color: red;
     font-size: 25px;
 }
 
 #year-link:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 #top-video {
-    color: #D4AC0D; 
+    color: red;
 }
 
 #top-video:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 .year {
-    color: #D4AC0D; 
+    color: darkred;
     font-size: 200px;
 }
 
 h2 {
-    color:#594AE3; 
+    color: darkgreen; 
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 p {
-    color: white;
     padding-left: 10%;
     padding-right: 10%;
+    color: black; 
 }
 
 .vlog {
@@ -331,7 +355,7 @@ p {
 }
 
 .video-journal-intro {
-    color: #594AE3; 
+    color: darkgreen; 
     padding-top: 10%;
 }
 
@@ -343,16 +367,17 @@ p {
 /* videos page */
 
 .video-main-title{
-    color: #594AE3;
+    color: darkred; 
+    font-size: 100px;
 }
 
 .video-section{
-    color: #D4AC0D;
+    color: darkred;
     font-size: 80px;
     padding-top: 10%;
 }
 .video-title{
-    color: #594AE3; 
+    color: darkgreen; 
     padding-top: 8%;
     font-size: 50px;
 }
@@ -378,32 +403,32 @@ p {
 
 /* Piano Video Page */
 .piano-title {
-    color: #594AE3; 
+    color: darkgreen;
     font-size: 100px;
 }
 
 .peanuts {
-    color: #594AE3;
+    color: darkred;
     font-size: 50px;
     font-family: 'peanuts', 'Montserrat', 'sans-serif';
 }
 
 .grim-grinning-ghosts {
     font-size: 100px;
-    color: #594AE3;
+    color: darkred;
     font-family:'Ravenscroft', 'Monsterrat', 'sans-serif';
 }
 
 .hocus{
     font-size: 60px;
-    color: #594AE3;
+    color: darkred;
     font-family: 'waltograph','Monsterrat', 'sans-serif';
     padding-left: 30%;
     padding-right: 30%;
 }
 
 .truman {
-    color: #594AE3;
+    color: darkred;
     font-size: 80px;
     font-family: 'Trumania EEN', 'Montserrat', 'sans-serif';
 }
@@ -427,31 +452,31 @@ p {
 }
 
 .batman1966 {
-    color: #594AE3;
+    color: darkred;
     font-size: 80px;
     font-family: 'POW_', 'Montserrat', 'sans-serif';
 }
 
 .skyfall {
-    color: #594AE3;
+    color: darkred;
     font-size: 100px;
     font-family: '007 Goldeneye', 'Montserrat', 'sans-serif';
 }
 
 .shadows-lie{
-    color: #594AE3;
+    color: darkred;
     font-size: 70px;
     font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
 }
 
 .gollum{
-    color: #594AE3;
+    color: darkred;
     font-size: 60px;
     font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
 }
 
 .batmandogcars {
-    color: #594AE3;
+    color: darkred;
     font-size: 50px;
 }
 
@@ -465,19 +490,19 @@ p {
 }
 
 .question {
-    color: #D4AC0D; 
+    color: darkgreen; 
     font-size: 50px;
 }
 
 .answer {
-    color: white;
+    color: black; 
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .about-me-title {
-    color: #594AE3;
+    color: darkred; 
     font-size: 100px;
 }
 
@@ -505,7 +530,7 @@ p {
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #594AE3;
+    background-color: rgba(255, 0, 0, 1); 
 }
 
 .content:hover .overlay {
@@ -513,7 +538,7 @@ p {
 }
 
 .hero-overlay-text {
-    color: #D4AC0D;
+    color: darkgreen; 
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -574,7 +599,7 @@ p {
 }
 
 .music-link:hover {
-    color: #594AE3;
+    color: rgb(100, 4, 4);
 
 }
 
@@ -594,7 +619,7 @@ p {
 }
 
 .mission-title-main {
-    color: #594AE3;
+    color: darkgreen;
     font-size: 90px;
 }
 
@@ -605,13 +630,13 @@ p {
 
 .mission-area {
     color: #594AE3;
-    font-size: 80px;
+    /* Normal */
+    color: darkred;
 }
 
 /* Paintings */
 .paintings-title {
-    color: #594AE3;
-    font-size: 80px;
+    color: darkred;
 }
 
 .hogwarts {
@@ -680,7 +705,7 @@ p {
 
 /* Recipies */
 .recipies-title {
-    color: #594AE3;
+    color: darkred;
     font-size: 100px;
 }
 
@@ -693,25 +718,25 @@ p {
 }
 
 #recipie-link {
-    color: #D4AC0D; 
+    color: red;
     font-size: 25px;
 }
 
 #recipie-link:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 #top-rec {
-    color: #D4AC0D;
+    color: red;
     font-size: 25px;
 }
 
 #top-rec:hover {
-    color: #594AE3;
+    color: darkred;
 }
 
 .celestial-cookie-button {
-    background-color: rgb(72, 71, 71);
+    background-color: gray;
     cursor: pointer;
     color: #D4AC0D;
     font-size: large;
@@ -719,18 +744,18 @@ p {
 }
 
 .ingred-title {
-    color: #D4AC0D;
+    color: darkred;
     font-size: 30px;
     padding-right: 70%;
 }
 
 .ingredients {
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .cinnamon-roll {
-    color: #594AE3;
+    color: darkgreen;
     text-align: center;
     font-size: 50px;
     padding-top: 10%;
@@ -739,7 +764,7 @@ p {
 }
 
 .cinnamon {
-    color: #D4AC0D;
+    color: darkgreen;
     text-align: left;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
@@ -748,12 +773,12 @@ p {
 
 .directions {
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .directions-title {
-    color: #D4AC0D;
     text-align: left;
+    color: darkgoldenrod;
     padding-left: 10%;
     padding-top: 5%;
 }

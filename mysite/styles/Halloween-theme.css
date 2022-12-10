@@ -3,6 +3,35 @@
     margin: 0 auto;
 }
 
+.storm {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    animation: flash 5s linear infinite;
+}
+
+@keyframes flash {
+
+    0%,
+    95%,
+    98% {
+        background-color: transparent
+    }
+
+    96%,
+    99%,
+    100% {
+        background-color: #fff
+    }
+}
+
+
 .spider-man-main{
     font-family: 'Spiderman-Homecoming', 'Monsterrat','sans-serif';
     color: blue;
@@ -49,6 +78,8 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: rgba(13, 19, 30, 0.7);
+    background-color: #242325;
+    /* Halloween */ 
 }
 
 nav {
@@ -58,14 +89,14 @@ nav {
 
 nav a {
     text-align: center;
-    color: #D4AC0D;
+    color: darkorange;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover {
-    background-color: #594AE3;
-    color: rgb(100, 4, 4);
+    background-color: black;
+    /* Halloween */
     text-decoration: underline;
 }
 
@@ -79,9 +110,26 @@ nav a:hover {
     align-self: center;
 }
 
+#halloween-count-down {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: 'ravenscroft', 'Monsterrat', 'sans-serif';
+    color: darkorange;
+    background-color: darkred;
+}
+
+.count-down-title {
+    color: darkorange;
+    font-family: "Burton's Nightmare", 'ravenscroft', 'Monsterrat', 'sans-serif';
+    font-size: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* footer */
 footer {
-    background-color: #594AE3; 
+    background-color: #242325;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -90,7 +138,7 @@ footer {
 }
 
 footer h3 {
-    color: white;
+    color: darkorange;
 }
 
 footer h3 a:hover {
@@ -98,12 +146,13 @@ footer h3 a:hover {
 }
 
 footer a {
-    color: #D4AC0D;
+    color: darkred;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: white
+    color: rgb(100, 4, 4);
+    /* color: white */
 }
 
 footer .social img {
@@ -114,13 +163,21 @@ footer .social img {
 /* main section */
 
 .home-title {
-    color: #594AE3; 
+    color: darkorange;
     font-family: 'Montserrat', sans-serif;
     font-size: 5em;
     margin-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
+}
+
+.Halloween {
+    color: darkred;
+    font-family: 'CF Halloween', 'Montserrat', sans-serif;
+    font-size: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #hero-img {
@@ -146,7 +203,7 @@ main section {
 }
 
 body {
-    background-color: #242325;
+    background-color: black;
     font-family: sans-serif;
     font-size: 22px;
     margin: 0;
@@ -214,9 +271,9 @@ body {
   }
 
 h4 {
-    color: white;
     padding-left: 10%;
     padding-right: 10%;
+    color: black; 
 }
 
 main section img {
@@ -279,7 +336,7 @@ main section img {
 }
 
 .video-journal-title {
-    color: #594AE3;
+    color: darkorange;
     font-size: 100px;
 }
 
@@ -292,29 +349,29 @@ main section img {
 }
 
 #year-link {
-    color: #D4AC0D; 
+    color: red;
     font-size: 25px;
 }
 
 #year-link:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 #top-video {
-    color: #D4AC0D; 
+    color: red;
 }
 
 #top-video:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 .year {
-    color: #D4AC0D; 
+    color: darkred;
     font-size: 200px;
 }
 
 h2 {
-    color:#594AE3; 
+    color: darkorange;
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
@@ -331,7 +388,7 @@ p {
 }
 
 .video-journal-intro {
-    color: #594AE3; 
+    color: darkorange;
     padding-top: 10%;
 }
 
@@ -343,16 +400,18 @@ p {
 /* videos page */
 
 .video-main-title{
-    color: #594AE3;
+    color: darkorange;
+    /* Halloween */
+    font-size: 100px;
 }
 
 .video-section{
-    color: #D4AC0D;
+    color: darkred;
     font-size: 80px;
     padding-top: 10%;
 }
 .video-title{
-    color: #594AE3; 
+    color: darkorange;
     padding-top: 8%;
     font-size: 50px;
 }
@@ -378,32 +437,33 @@ p {
 
 /* Piano Video Page */
 .piano-title {
-    color: #594AE3; 
+    color: darkorange;
     font-size: 100px;
 }
 
 .peanuts {
-    color: #594AE3;
+    color: darkred;
     font-size: 50px;
     font-family: 'peanuts', 'Montserrat', 'sans-serif';
 }
 
 .grim-grinning-ghosts {
     font-size: 100px;
-    color: #594AE3;
+    color: darkred;
     font-family:'Ravenscroft', 'Monsterrat', 'sans-serif';
 }
 
 .hocus{
     font-size: 60px;
-    color: #594AE3;
+    color: darkred;
     font-family: 'waltograph','Monsterrat', 'sans-serif';
     padding-left: 30%;
     padding-right: 30%;
 }
 
 .truman {
-    color: #594AE3;
+    color: darkred;
+    /* Halloween */
     font-size: 80px;
     font-family: 'Trumania EEN', 'Montserrat', 'sans-serif';
 }
@@ -427,31 +487,32 @@ p {
 }
 
 .batman1966 {
-    color: #594AE3;
+    color: darkred;
     font-size: 80px;
     font-family: 'POW_', 'Montserrat', 'sans-serif';
 }
 
 .skyfall {
-    color: #594AE3;
+    color: darkred;
     font-size: 100px;
     font-family: '007 Goldeneye', 'Montserrat', 'sans-serif';
 }
 
 .shadows-lie{
-    color: #594AE3;
+    color: darkred;
     font-size: 70px;
     font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
 }
 
 .gollum{
-    color: #594AE3;
+    color: darkred;
     font-size: 60px;
     font-family: 'Ringbearer', 'Montserrat', 'sans-serif';
 }
 
 .batmandogcars {
-    color: #594AE3;
+    color: darkred;
+    /* Halloween */
     font-size: 50px;
 }
 
@@ -465,19 +526,19 @@ p {
 }
 
 .question {
-    color: #D4AC0D; 
+    color: darkred;
     font-size: 50px;
 }
 
 .answer {
-    color: white;
+    color: white; 
     font-size: 25px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 .about-me-title {
-    color: #594AE3;
+    color: darkorange;
     font-size: 100px;
 }
 
@@ -505,7 +566,7 @@ p {
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #594AE3;
+    background-color: black;
 }
 
 .content:hover .overlay {
@@ -513,7 +574,7 @@ p {
 }
 
 .hero-overlay-text {
-    color: #D4AC0D;
+    color: darkred;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -570,11 +631,11 @@ p {
 }
 
 .music-link {
-    color: #D4AC0D
+    color: darkorange
 }
 
 .music-link:hover {
-    color: #594AE3;
+    color: rgb(100, 4, 4);
 
 }
 
@@ -594,7 +655,7 @@ p {
 }
 
 .mission-title-main {
-    color: #594AE3;
+    color: darkorange;
     font-size: 90px;
 }
 
@@ -604,13 +665,13 @@ p {
 }
 
 .mission-area {
-    color: #594AE3;
+    color: darkred;
     font-size: 80px;
 }
 
 /* Paintings */
 .paintings-title {
-    color: #594AE3;
+    color: darkred;
     font-size: 80px;
 }
 
@@ -680,7 +741,7 @@ p {
 
 /* Recipies */
 .recipies-title {
-    color: #594AE3;
+    color: darkred;
     font-size: 100px;
 }
 
@@ -693,25 +754,25 @@ p {
 }
 
 #recipie-link {
-    color: #D4AC0D; 
+    color: red;
     font-size: 25px;
 }
 
 #recipie-link:hover {
-    color: #594AE3; 
+    color: darkred;
 }
 
 #top-rec {
-    color: #D4AC0D;
+    color: red;
     font-size: 25px;
 }
 
 #top-rec:hover {
-    color: #594AE3;
+    color: darkred;
 }
 
 .celestial-cookie-button {
-    background-color: rgb(72, 71, 71);
+    background-color: gray;
     cursor: pointer;
     color: #D4AC0D;
     font-size: large;
@@ -719,18 +780,18 @@ p {
 }
 
 .ingred-title {
-    color: #D4AC0D;
+    color: darkorange;
     font-size: 30px;
     padding-right: 70%;
 }
 
 .ingredients {
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .cinnamon-roll {
-    color: #594AE3;
+    color: darkorange;
     text-align: center;
     font-size: 50px;
     padding-top: 10%;
@@ -739,7 +800,7 @@ p {
 }
 
 .cinnamon {
-    color: #D4AC0D;
+    color: darkorange;
     text-align: left;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
@@ -748,12 +809,12 @@ p {
 
 .directions {
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .directions-title {
-    color: #D4AC0D;
     text-align: left;
+    color: darkorange;
     padding-left: 10%;
     padding-top: 5%;
 }
