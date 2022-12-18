@@ -3,6 +3,17 @@ header.innerHTML = `
 <!-- <link rel="stylesheet" href="styles/style.css"> -->
 <link rel="stylesheet" href="styles/Christmas-theme.css">       
 <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
+
+<style type="text/css">
+.mobileShow { display: none;}
+
+/* Smartphone Portrait and Landscape */
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px){ 
+    .mobileShow {display: inline;}
+}
+</style>
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
             </a>
