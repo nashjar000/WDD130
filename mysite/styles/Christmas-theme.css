@@ -95,6 +95,28 @@ nav a:hover {
     background-color: green;
 }
 
+#NYE{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 0px;
+    font-family: 'Monsterrat','sans-serif';
+    color: white;
+    background-color:#2196F3;
+}
+
+.NYE-title{
+    color: gold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.NYE-msg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
 .count-down-title {
     color: darkred;
     font-family: 'PWChristmasfont', 'Monsterrat', 'sans-serif';

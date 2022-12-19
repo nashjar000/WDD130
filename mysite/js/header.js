@@ -45,4 +45,5 @@ header.innerHTML = `
                 element.classList.toggle("dark-mode");
             } 
         </script> -->
+        <img class="snow-background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background">
 `;
