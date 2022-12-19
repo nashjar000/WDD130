@@ -278,6 +278,36 @@ main section img {
     z-index: -1;
 }
 
+/* For devices smaller than 400px: */
+/* @media only screen and (max-device-width: 400px){
+    .snow-background-small{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        top: -10%;
+        bottom: 0;
+        right: 0;
+        left: -80%;
+        position: fixed;
+        z-index: -1;
+    }
+}    */
+  
+  /* For devices 400px and larger: */
+  /* @media only screen and (min-device-width: 400px) {
+    .snow-background{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        z-index: -1;
+    }    
+  } */
+
 .author {
     font-style: italic;
     text-align: center;
