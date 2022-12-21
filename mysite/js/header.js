@@ -1,8 +1,8 @@
 header.innerHTML = `
 <header>
 <!-- <link rel="stylesheet" href="styles/style.css"> -->
-<link rel="stylesheet" href="styles/Christmas-theme.css">       
-<!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
+<link rel="stylesheet" href="styles/Christmas-theme.css">    
+ <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
 
 <style type="text/css">
 .mobileShow { display: none;}
@@ -46,4 +46,12 @@ header.innerHTML = `
             } 
         </script> -->
         <img class="snow-background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background">
+        
+        <!-- <div class="storm"></div>
+        <a hidden>
+            <audio controls autoplay loop>
+                <source src="Audio/rain-lightning-thunder-121739.mp3" type=audio/mpeg> Your browser does not support the
+                    audio element. </audio> </a> 
+                <div class='button-box'>
+                </div> -->
 `;
