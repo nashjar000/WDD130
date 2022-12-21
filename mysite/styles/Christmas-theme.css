@@ -1,3 +1,22 @@
+/* For devices smaller than 400px: */
+/* @media only screen and (max-device-width: 400px){
+    nav a {
+        text-align: center;
+        color: darkred; 
+        text-decoration: none;
+        padding: 15px;
+        font-size: 10px;
+    }
+
+    .home-title {
+    color: darkred; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5px;
+    padding: 10%;
+}
+}    */
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -298,6 +317,7 @@ main section img {
     left: 0;
     position: fixed;
     z-index: -1;
+    height: 100%;
 }
 
 /* For devices smaller than 400px: */
