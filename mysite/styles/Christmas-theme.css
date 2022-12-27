@@ -22,7 +22,7 @@
     margin: 0 auto;
 }
 
-#mobileShow{
+.mobileShow{
     text-align: center;
     padding: 10%;
     color: yellow;
