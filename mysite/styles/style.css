@@ -3,6 +3,14 @@
     margin: 0 auto;
 }
 
+#mobileShow{
+    text-align: center;
+    padding: 10%;
+    color: yellow;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.608);
+    font-size: 40px;
+}
+
 .spider-man-main{
     font-family: 'Spiderman-Homecoming', 'Monsterrat','sans-serif';
     color: blue;
