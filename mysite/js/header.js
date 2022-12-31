@@ -1,7 +1,7 @@
 header.innerHTML = `
 <header>
-  <link rel="stylesheet" href="styles/style.css"> 
-<!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
+ <!-- <link rel="stylesheet" href="styles/style.css"> -->
+<link rel="stylesheet" href="styles/Christmas-theme.css">  
  <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
 
 <style type="text/css">
