@@ -201,6 +201,7 @@ footer .social img {
     margin-right: auto;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
 }
 
 #hero-msg h1,
@@ -567,6 +568,7 @@ p {
     margin-right: auto;
     width: 30%;
     padding-top: 5%;
+    padding-top: 5%;
 }
 
 .question {
@@ -610,7 +612,7 @@ p {
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(255, 0, 0, 1); 
+    background-color: rgba(255, 0, 0, 0.683); 
 }
 
 .content:hover .overlay {

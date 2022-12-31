@@ -159,6 +159,7 @@ footer .social img {
     margin-right: auto;
     width: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
 }
 
 #hero-msg h1,
@@ -276,6 +277,7 @@ main section img {
     left: 0;
     position: fixed;
     z-index: -1;
+    height: 100%;
 }
 
 .author {
@@ -517,6 +519,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 20px;
 }
 
 .image {
@@ -535,7 +538,7 @@ p {
     width: 50%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #594AE3;
+    background-color: #594ae3cb;
 }
 
 .content:hover .overlay {
@@ -588,6 +591,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+    margin-top: 20px;
 }
 
 /* Favorite Music */
