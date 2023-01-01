@@ -1,7 +1,7 @@
 header.innerHTML = `
 <header>
- <!-- <link rel="stylesheet" href="styles/style.css"> -->
-<link rel="stylesheet" href="styles/Christmas-theme.css">  
+ <link rel="stylesheet" href="styles/style.css"> 
+<!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
  <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
 
 <style type="text/css">
@@ -45,7 +45,7 @@ header.innerHTML = `
                 element.classList.toggle("dark-mode");
             } 
         </script> -->
-        <img class="snow-background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> 
+        <!-- <img class="snow-background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> -->
         
         <!-- <div class="storm"></div>
         <a hidden>
