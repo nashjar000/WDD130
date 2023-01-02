@@ -3,12 +3,12 @@
     margin: 0 auto;
 }
 
-#mobileShow{
+.mobileShow{
     text-align: center;
     padding: 10%;
     color: yellow;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.608);
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .spider-man-main{
