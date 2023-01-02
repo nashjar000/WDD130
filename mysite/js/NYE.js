@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2024 00:00:00").getTime();
                     
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -25,7 +25,7 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("NYE").innerHTML = 
     ` 
-    <h1 class="NYE-msg" style= "color: white;">HAPPY NEW YEAR <span style="color: gold;">2023</span>!!!</h1>
+    <h1 class="NYE-msg" style= "color: white;">HAPPY NEW YEAR <span style="color: gold;">2024</span>!!!</h1>
  `
   }
 }, 1000);
