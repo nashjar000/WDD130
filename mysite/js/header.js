@@ -38,6 +38,12 @@ header.innerHTML = `
                 </script>
             </nav>
         </header>
+        <style>
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
         <!-- <button onclick="darklightmode()">Dark/Light</button>
         <script>
             function darklightmode(){
