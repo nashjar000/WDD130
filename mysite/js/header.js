@@ -19,18 +19,6 @@ header.innerHTML = `
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Videos<i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="video-journals.html">Video Journals</a>
-                        <a href="piano.html">Piano</a>
-                        <a href="videos.html">Other</a>
-                    </div>
-                </div>
-                <!-- <a href="video-journals.html">Video Journals</a>
-                <a href="piano.html">Piano Videos</a>
-                <a href="videos.html">Other Videos</a> -->
                 <a href="about-me.html">About Me (FAQ)</a>
                 <a href="contact.html">Contact Me</a>
                 <!-- <a href="contact.html">Contact me</a> -->
@@ -39,6 +27,16 @@ header.innerHTML = `
                 <a href="favorite-music.html">Favorite Music</a>
                 <a href="painting.html">Paintings</a>
                 <a href="recipies.html">Recipes</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Videos
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="video-journals.html">Video Journals</a>
+                        <a href="piano.html">Piano</a>
+                        <a href="videos.html">Other</a>
+                    </div>
+                </div>
                 <script>
                     function darklightmode(){
                         var element = document.body;
