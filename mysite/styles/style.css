@@ -505,6 +505,13 @@ p {
     font-size: 100px;
 }
 
+.spider-man{
+    font-family: 'Spiderman-Homecoming', 'Monsterrat','sans-serif';
+    color: yellow;
+    text-shadow: 2px 2px red;
+    font-size: 50px;
+}
+
 .peanuts {
     color: #594AE3;
     font-size: 50px;
