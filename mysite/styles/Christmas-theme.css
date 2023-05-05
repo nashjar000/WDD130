@@ -419,6 +419,11 @@ main section img {
     font-size: 200px;
 }
 
+#star_wars{
+    font-family:'Star Jedi Hollow' ;
+    font-size: 50px;
+}
+
 h2 {
     color: darkgreen; 
     padding-top: 10%;

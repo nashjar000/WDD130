@@ -387,6 +387,11 @@ h2 {
     padding-right: 10%;
 }
 
+#star_wars{
+    font-family:'Star Jedi Hollow' ;
+    font-size: 50px;
+}
+
 p {
     color: white;
     padding-left: 10%;
