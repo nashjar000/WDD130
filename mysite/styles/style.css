@@ -396,6 +396,11 @@ main section img {
     border: 3px
 }
 
+#star_wars{
+    font-family:'Star Jedi Hollow' ;
+    font-size: 50px;
+}
+
 #video-journal-img {
     display: block;
     margin-left: auto;
