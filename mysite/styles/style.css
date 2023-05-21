@@ -898,3 +898,126 @@ p {
     padding-left: 10%;
     padding-top: 5%;
 }
+
+
+
+
+
+
+
+
+/* When the screen is less than 600 pixels wide */
+@media screen and (max-width: 600px) {
+    /* Adjustments for mobile devices */
+
+    /* Update the navigation */
+    header {
+        grid-template-columns: auto;
+    }
+
+    /* Hide the dropdown links by default */
+    .dropdown-content {
+        display: none;
+    }
+
+    /* Show the dropdown content when the user clicks on the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Hide the links in the topnav, except for the first one */
+    /* nav a:not(:first-child) {
+        display: none;
+    } */
+
+    /* Show the link that opens and closes the topnav */
+    nav a.icon {
+        display: block;
+    }
+
+    /* Adjust the main section */
+    .home-title {
+        font-size: 3em;
+    }
+
+    /* Adjust the logo image */
+    .logo {
+        width: 150px;
+    }
+
+    /* Adjust the footer */
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .social img {
+        margin: 10px;
+    }
+
+    /* Adjust the main section images */
+    main section img {
+        width: 100%;
+    }
+
+    /* Adjust the quote and author sections */
+    .quote,
+    .author {
+        padding: 10px;
+    }
+
+    /* Adjust the video journal page */
+    .year-links {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .year,
+    .video-title {
+        font-size: 30px;
+    }
+
+    #video-journal-img {
+        width: 40%;
+        padding-top: 2%;
+    }
+
+    .video-journal-intro {
+        padding-top: 5%;
+    }
+
+    /* Adjust the videos page */
+    .video-links {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .video-main-title {
+        font-size: 50px;
+    }
+
+    .video-title {
+        font-size: 30px;
+    }
+
+    /* Adjust the piano video page */
+    .piano-title {
+        font-size: 50px;
+    }
+
+    #piano-main-img {
+        width: 40%;
+        padding-top: 2%;
+    }
+
+    /* Adjust the about me page */
+    #about-img {
+        width: 50%;
+        padding-top: 5%;
+    }
+}
+
