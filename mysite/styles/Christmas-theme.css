@@ -870,3 +870,25 @@ p {
     padding-left: 10%;
     padding-top: 5%;
 }
+
+.dropdown-content a {
+    color: white;
+}
+
+#videoButton {
+    color: darkred;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#fb0707e6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a:hover {
+    background-color:#f6efef;
+    color:rgb(30, 100, 4);
+  }

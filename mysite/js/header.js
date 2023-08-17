@@ -1,7 +1,7 @@
 header.innerHTML = `
 <header>
  <link rel="stylesheet" href="styles/style.css"> 
-<!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
+ <!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
  <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
 
 <style type="text/css">
@@ -28,7 +28,7 @@ header.innerHTML = `
                 <a href="painting.html">Paintings</a>
                 <a href="recipies.html">Recipes</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Videos
+                    <button class="dropbtn" id="videoButton">Videos
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
@@ -67,4 +67,10 @@ header.innerHTML = `
                     audio element. </audio> </a> 
                 <div class='button-box'>
                 </div> -->
+        <!-- <a hidden>
+                <audio controls autoplay loop>
+                    <source src="Audio/『Grim Grinning Ghosts + Come Little Children』(Vocal Cover) _【Alice Flare】.mp3" type=audio/mpeg> Your browser does not support the
+                        audio element. </audio> </a> 
+                    <div class='button-box'>
+                    </div> -->
 `;
