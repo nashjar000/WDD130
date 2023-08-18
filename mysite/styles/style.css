@@ -1,3 +1,24 @@
+.cursor {
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+
+#quote-container{
+    text-align: center;
+    background-color: #594AE3;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 #GC{
     text-align: center;
 }
