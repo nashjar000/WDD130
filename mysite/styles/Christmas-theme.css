@@ -16,6 +16,16 @@
 }
 }    */
 
+#quote-container{
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.577);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+#author, #quote{
+    color: darkred;
+}
 
 #content {
     max-width: 1600px;
