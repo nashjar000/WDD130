@@ -10,6 +10,13 @@
       opacity: 1;
     }
   }
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+    #quote-container {
+        padding-right: 100px;
+    }
+  }
   
 
 #quote-container{
