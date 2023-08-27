@@ -12,18 +12,12 @@
     <script defer src="video.js"></script>
     <script defer src="./js/footer.js"></script>
     <link rel="stylesheet" href="./styles/video.css">
+    <script defer src="./js/scroll-button.js"></script>
 </head>
 
 <body>
     <div id="content">
         <div id="header"></div>
-        <!-- <button onclick="darklightmode()">Dark/Light</button> -->
-        <!-- <script>
-            function darklightmode(){
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
-        </script> -->
         <div id="video-journal">
             <div id="video-journal-box">
                 <img id="video-journal-img" src="images/Video-Journal-img.jpeg" alt="Video Journal Image">
@@ -347,6 +341,10 @@
                                                     allowfullscreen></iframe>
                                                 <p class="video-caption">The priests started a 50 miler back-packing
                                                     trip on part of the PCT.</p>
+
+                                                    <button id="scrollToTopButton" class="scroll-to-top-button" onclick="scrollToTop()">
+                                                        <i class="fas fa-arrow-up"></i>
+                                                    </button>
 
 
                                                 <!-- <h2 class="">[TITLE OF VIDEO]</h1>
