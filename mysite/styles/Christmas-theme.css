@@ -1,21 +1,3 @@
-/* For devices smaller than 400px: */
-/* @media only screen and (max-device-width: 400px){
-    nav a {
-        text-align: center;
-        color: darkred; 
-        text-decoration: none;
-        padding: 15px;
-        font-size: 10px;
-    }
-
-    .home-title {
-    color: darkred; 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5px;
-    padding: 10%;
-}
-}    */
-
 #quote-container{
     text-align: center;
     background-color: rgba(0, 100, 0, 0.577);
@@ -486,17 +468,6 @@ p {
     padding: 50px;
     gap: 30px;
 }
-
-/* .video-grid{
-    padding: 20%;
-    text-align: center;
-}
-
-.BGTV-videos, .animation-videos, .fun-videos{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10%;
-} */
 
 /* Piano Video Page */
 .piano-title {
