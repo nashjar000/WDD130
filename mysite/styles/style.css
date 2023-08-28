@@ -350,48 +350,155 @@ p {
     text-align: center;
 }
 
-/* Mobile styles (max-width: 600px) */
-@media screen and (max-width: 600px) {
-    /* Adjust your navigation, header, footer, and other layout elements */
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust the header layout for mobile */
     header {
-        padding: 10px; /* Add padding for spacing */
-        text-align: center; /* Center content */
-    }
-    
-    nav {
-        display: none; /* Hide navigation menu initially */
-    }
-    
-    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 10px;
+    }
+
+    .logo {
+        width: 120px; /* Adjust logo size for mobile */
+        margin-bottom: 10px;
+    }
+
+    #quote-container {
+        margin: 20px 0;
         text-align: center;
     }
 
-    /* Adjust fonts and spacing for mobile */
-    body {
-        font-size: 18px; /* Larger font size for better readability */
-        padding: 10px; /* Add spacing around content */
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px 20px;
     }
 
-    /* Adjust components for mobile */
-    .button {
-        padding: 10px 20px; /* Increase button padding */
-        font-size: 18px; /* Larger font size for buttons */
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
     }
 
-    .card {
-        margin: 10px; /* Add margin between cards */
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
         padding: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
     }
 
-    /* Page-specific styles for mobile */
-    .home-content {
-        padding: 20px; /* Add padding around content */
+    .mobile-menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
     }
 
-    .about-content,
-    .contact-content {
-        padding: 20px;
+    /* Show mobile menu when menu icon is clicked */
+    .mobile-nav.active .mobile-menu {
+        display: flex;
+    }
+
+    /* Adjust hero image */
+    #hero-img {
+        width: 100%;
+        max-width: 300px; /* Adjust image width */
+        margin: 20px 0;
+    }
+
+    /* Adjust hero overlay text */
+    .hero-overlay-text {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Adjust other content */
+    .home-title,
+    h4,
+    p {
+        padding: 0 10px; /* Adjust padding */
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .mobile-nav {
+        position: relative;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Transparent background */
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999; /* Make sure the menu is on top */
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 0;
+    }
+
+    /* Adjust the menu icon to close the overlay */
+    .menu-icon.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .menu-icon.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-icon.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        width: 30px; /* Set a width for the icon */
+        height: 20px; /* Set a height for the icon */
+    }
+    
+    .bar {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transition: 0.3s;
+    }
+    
+    /* Adjust the icon appearance when active */
+    .menu-icon.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-icon.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-icon.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
     }
 }
+
