@@ -424,11 +424,14 @@ p {
     }
 
     /* Adjust other content */
-    .home-title,
     h4,
     p {
-        padding: 0 10px; /* Adjust padding */
-        font-size: 16px; /* Adjust font size */
+        padding: 0 10px; 
+        font-size: 16px; 
+    }
+
+    .home-title{
+        font-size: 50px;
     }
 
     .mobile-nav {

@@ -9,7 +9,7 @@ header.innerHTML = `
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
             </a>
-            <nav>
+            <nav class="mobile-nav">
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me (FAQ)</a>
                 <a href="contact.html">Contact Me</a>
@@ -30,6 +30,18 @@ header.innerHTML = `
                 </div>
             </nav>
         </header>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const mobileNav = document.querySelector('.mobile-nav');
+    
+        menuIcon.addEventListener('click', () => {
+            menuIcon.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+        });
+    </script>
 
     <style>
     html {
