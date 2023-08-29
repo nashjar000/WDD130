@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       {quote: "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light", author: "Albus Dumbledore"},
 
-      {quote: "My mum has always said things we loose have a way of coming back to us in the end. If not always in the end we expect.", author: "Luna Lovegood"},
+      {quote: "My mum has always said things we loose have a way of coming back to us in the end. If not always in the way we expect.", author: "Luna Lovegood"},
       {quote: "You're just as sane as I am.", author: "Luna Lovegood"},
       {quote: "Being different isn't a bad thing. It means you're brave enough to be yourself", author: "Luna Lovegood"},
       {quote: "Well if I were You-Know-Who, I’d want you to feel cut off from everyone else. Because if it’s just you alone you’re not as much of a threat.", author: "Luna Lovegood"},
