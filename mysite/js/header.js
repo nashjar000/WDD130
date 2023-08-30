@@ -9,6 +9,7 @@ header.innerHTML = `
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
             </a>
+            <script defer src="./js/mobile-menu.js"></script>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me (FAQ)</a>
