@@ -10,33 +10,50 @@ header.innerHTML = `
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
             </a>
 
-            <script defer src="./js/mobile-menu.js"></script>
-            <div class="menu-icon" id="menuIcon">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 
-            <nav class="mobile-menu" id="mobileMenu">
-            <a href="index.html">Home</a>
-            <a href="about-me.html">About Me (FAQ)</a>
-            <a href="contact.html">Contact Me</a>
-            <!-- <a href="coming-soon.html">Coming Soon</a> -->
-            <!-- <a href="mission.html">Mission Audio Files</a> -->
-            <a href="favorite-music.html">Favorite Music</a>
-            <a href="painting.html">Paintings</a>
-            <a href="recipies.html">Recipes</a>
-            <div class="dropdown">
-                <button class="dropbtn" id="videoButton">Videos
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="video-journals.html">Video Journals</a>
-                    <a href="piano.html">Piano</a>
-                    <a href="videos.html">Other</a>
-                </div>
-            </div>
-        </nav>
+<div class="menu-icon" id="menuIcon">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<nav class="mobile-menu" id="mobileMenu">
+    <button class="close-button" id="closeButton">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="about-me.html">About Me (FAQ)</a>
+    <a href="contact.html">Contact Me</a>
+    <!-- <a href="coming-soon.html">Coming Soon</a> -->
+    <!-- <a href="mission.html">Mission Audio Files</a> -->
+    <a href="favorite-music.html">Favorite Music</a>
+    <a href="painting.html">Paintings</a>
+    <a href="recipies.html">Recipes</a>
+    <div class="dropdown">
+        <button class="dropbtn" id="videoButton">Videos
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="video-journals.html">Video Journals</a>
+            <a href="piano.html">Piano</a>
+            <a href="videos.html">Other</a>
+        </div>
+    </div>
+</nav>
+
+<script>
+    const menuIcon = document.getElementById("menuIcon");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuIcon.addEventListener("click", () => {
+        menuIcon.classList.toggle("active");
+        mobileMenu.classList.toggle("active");
+    });
+</script>
 
             <nav>
                 <a href="index.html">Home</a>
