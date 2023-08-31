@@ -558,20 +558,6 @@ p {
     padding-top: 50px; /* Add padding for the black overlay */
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.9); /* Use the same background color as .mobile-menu */
-}
-
-  
   .mobile-menu.active {
     display: flex;
   }
