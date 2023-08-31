@@ -1,10 +1,11 @@
 header.innerHTML = `
 <header>
- <link rel="stylesheet" href="styles/style.css"> 
+<link rel="stylesheet" href="styles/style.css"> 
  <!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
  <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
  <link rel="stylesheet" href="./styles/scroll-button.css">
+ <script defer src="./js/mobile-menu.js"></script>
 
             <a href="index.html">
                 <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
