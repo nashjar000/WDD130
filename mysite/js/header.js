@@ -7,13 +7,14 @@ header.innerHTML = `
  <link rel="stylesheet" href="./styles/scroll-button.css">
 
             <a href="index.html">
-                <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
+                <img class="logo" src="images/mylogo-halloween.png" alt="Stay Connected With Jared Logo">
             </a>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <img class="snow-background" src="images/spider-webs.jpeg" alt="spider-webs">
 </head>
 <body>
 
