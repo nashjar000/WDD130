@@ -14,7 +14,7 @@ header.innerHTML = `
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <img class="snow-background" src="images/spider-webs.jpeg" alt="spider-webs" style="filter: opacity(.3);">
+    <img class="background" src="images/spider-webs.jpeg" alt="spider-webs" style="filter: opacity(.3);">
 </head>
 <body>
 
