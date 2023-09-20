@@ -31,6 +31,166 @@
     }
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust the header layout for mobile */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 120px; /* Adjust logo size for mobile */
+        margin-bottom: 10px;
+    }
+
+    #quote-container {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 10px 20px;
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mobile-menu a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+    }
+
+    /* Show mobile menu when menu icon is clicked */
+    .mobile-nav.active .mobile-menu {
+        display: flex;
+    }
+
+    /* Adjust hero image */
+    #hero-img {
+        width: 100%;
+        max-width: 300px; /* Adjust image width */
+        margin: 20px 0;
+    }
+
+    /* Adjust hero overlay text */
+    .hero-overlay-text {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    /* Adjust other content */
+    h4,
+    p {
+        padding: 0 10px; 
+        font-size: 16px; 
+    }
+
+    .home-title{
+        font-size: 50px;
+    }
+
+    .mobile-nav {
+        position: relative;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Transparent background */
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999; /* Make sure the menu is on top */
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding: 15px 0;
+    }
+
+    /* Adjust the menu icon to close the overlay */
+    .menu-icon.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .menu-icon.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-icon.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .menu-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        width: 30px; /* Set a width for the icon */
+        height: 20px; /* Set a height for the icon */
+    }
+    
+    .bar {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transition: 0.3s;
+    }
+    
+    /* Adjust the icon appearance when active */
+    .menu-icon.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-icon.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-icon.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
+
+#quote-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
 .mobileShow{
     text-align: center;
     padding: 10%;
