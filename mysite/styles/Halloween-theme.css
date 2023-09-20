@@ -81,6 +81,13 @@
     padding-top: 10%;
 }
 
+#quote-container{
+    text-align: center;
+    background-color: darkred;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
 /* Header and Navagation */
 header {
     display: grid;
@@ -103,7 +110,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.45);
     /* Halloween */
     text-decoration: underline;
 }
@@ -803,7 +810,7 @@ p {
 }
 
 .ingredients {
-    color: black;
+    color: white;
     text-align: left;
 }
 
@@ -826,7 +833,7 @@ p {
 
 .directions {
     text-align: left;
-    color: black;
+    color: white;
 }
 
 .directions-title {
