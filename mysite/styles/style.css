@@ -224,7 +224,7 @@ footer .social img {
 }
 
 #hero-msg h1,
-#hero-msg h4 {
+#hero-msg h4, .code-link {
     text-align: center;
 }
 
@@ -601,3 +601,14 @@ p {
       display: none;
     }
   }
+
+  .code-link{
+    margin-left: 40%;
+    color: #D4AC0D;
+    text-decoration: none;
+}
+
+.code-link:hover{
+    color: #594AE3;
+    text-decoration: underline;
+}
