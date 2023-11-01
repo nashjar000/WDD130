@@ -1,20 +1,20 @@
 header.innerHTML = `
 <header>
-<!-- <link rel="stylesheet" href="styles/style.css"> -->
+<link rel="stylesheet" href="styles/style.css"> 
  <!-- <link rel="stylesheet" href="styles/Christmas-theme.css">  -->
  <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
  <link rel="stylesheet" href="./styles/scroll-button.css">
 
             <a href="index.html">
-                <img class="logo" src="images/mylogo-halloween.png" alt="Stay Connected With Jared Logo">
+                <img class="logo" src="images/mylogo-Red.png" alt="Stay Connected With Jared Logo">
             </a>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <img class="background" src="images/spider-webs.jpeg" alt="spider-webs" style="filter: opacity(.3);">
+   <!-- <img class="background" src="images/spider-webs.jpeg" alt="spider-webs" style="filter: opacity(.3);"> -->
     
 </head>
 <body>
@@ -45,7 +45,7 @@ header.innerHTML = `
             <a href="videos.html">Other</a>
         </div>
     </div>
-    <link rel="stylesheet" href="styles/Halloween-theme.css"> 
+   <!-- <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
 </nav>
 
 <script>
@@ -59,7 +59,8 @@ header.innerHTML = `
 </script>
 
             <nav>
-            <link rel="stylesheet" href="styles/Halloween-theme.css"> 
+          <!--  <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
+          <link rel="stylesheet" href="styles/Christmas-theme.css">
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me (FAQ)</a>
                 <a href="contact.html">Contact Me</a>
@@ -87,13 +88,13 @@ header.innerHTML = `
     }
     </style>
 
-        <!-- <img class="snow-background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> -->
+         <img class="background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> 
         
          <div class="storm"></div>
         <a hidden>
             <audio controls autoplay loop>
-                <source src="Audio/rain-lightning-thunder-121739.mp3" type=audio/mpeg> Your browser does not support the
-                    audio element. </audio> </a> 
+               <!-- <source src="Audio/rain-lightning-thunder-121739.mp3" type=audio/mpeg> Your browser does not support the
+                    audio element. </audio> </a> -->
                 <div class='button-box'>
                 </div> 
         <!-- <a hidden>

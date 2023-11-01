@@ -628,3 +628,13 @@ p {
   .btn:hover {
     background-color: RoyalBlue;
   }
+
+  .share-button {
+    background-color:  #D4AC0D; /* Pumpkin orange background color */
+    color: #000; /* Black text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
