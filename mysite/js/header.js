@@ -7,7 +7,7 @@ header.innerHTML = `
  <link rel="stylesheet" href="./styles/scroll-button.css">
 
             <a href="index.html">
-                <img class="logo" src="images/mylogo-Red.png" alt="Stay Connected With Jared Logo">
+                <img class="logo" src="images/mylogo.png" alt="Stay Connected With Jared Logo">
             </a>
 
 <head>
@@ -60,7 +60,7 @@ header.innerHTML = `
 
             <nav>
           <!--  <link rel="stylesheet" href="styles/Halloween-theme.css"> -->
-          <link rel="stylesheet" href="styles/Christmas-theme.css">
+         <!-- <link rel="stylesheet" href="styles/Christmas-theme.css"> -->
                 <a href="index.html">Home</a>
                 <a href="about-me.html">About Me (FAQ)</a>
                 <a href="contact.html">Contact Me</a>
@@ -88,7 +88,7 @@ header.innerHTML = `
     }
     </style>
 
-         <img class="background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> 
+        <!-- <img class="background" src="images/christmas-background-with-falling-snow_275806-1176.webp" alt="snow-background"> -->
         
          <div class="storm"></div>
         <a hidden>
